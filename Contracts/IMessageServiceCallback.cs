@@ -11,6 +11,6 @@ namespace ChatApp.Contracts.Contracts
 
         [OperationContract(IsOneWay = true)]
         void UserConnected(ObservableCollection<User> users);
-
+        void UserConnected();
     }
 }
